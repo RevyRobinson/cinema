@@ -4,6 +4,10 @@
 body {
 	background-color: #383838;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 /*HEAD*/
 .head {
 	background-color: white;
@@ -31,7 +35,7 @@ body {
 }
 .banner-info {
 	color: lightgray;
-	font-size: 13px;
+	font-size: 15px;
 }
 .boton-verde {
 	padding: 8px;
@@ -50,4 +54,42 @@ body {
 	font-weight: lighter;
 	padding-bottom: 5px;
 }
+.inside-info p {
+	padding-top: 8px;
+}
+/*botones*/
+.boton-amarillo {
+	background-color: #DFB636;
+	border-radius: 5px;
+}
+.boton-amarillo span {
+	margin: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px; 
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FEFEFD;
+}
+.boton-trailer{
+	margin-top: 20px;
+}
+.boton-naranja {
+	background-color: #BB7B29;
+	border-radius: 5px;
+}
+ .boton-ticket {
+ 	margin-top: 20px;
+ }
+ .boton-ticket span {
+	margin: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px; 
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FEFEFD;
+ }
 
