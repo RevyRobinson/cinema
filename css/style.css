@@ -170,3 +170,12 @@ a {
  	color: #CBCBCB;
  	padding: 20px;
  }
+ /*fix icon and search bar*/
+ .logo-bg6 {
+ 	position: absolute;
+ 	top: 40%;
+ 	left: 40%;
+ }
+ .logo-bg6 img {
+ 	width: 60px;
+ }
